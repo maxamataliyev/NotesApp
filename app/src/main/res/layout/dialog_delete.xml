@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="130sp"
+        android:layout_height="5sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="#ABABAB"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Are you sure want to delete\n This Note"
+        android:fontFamily="@font/bold"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No"
+        android:background="@drawable/no_button"
+        android:padding="10dp"
+        android:fontFamily="@font/bold"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"/>
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Yes"
+        android:background="@drawable/yes_button"
+        android:padding="10dp"
+        android:fontFamily="@font/bold"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"/>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
